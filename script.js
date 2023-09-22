@@ -1,7 +1,8 @@
 var bubble = " ";
 
 for (var i = 1; i <= 160; i++) {
-    bubble += `<div id="bubble">2</div>`
+    var rn = Math.floor(Math.random() * 10);
+    bubble += `<div id="bubble">${rn}</div>`
 }
 
 document.querySelector("#pbtm").innerHTML = bubble;
