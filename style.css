@@ -69,6 +69,8 @@ h3 {
 
 #pbtm {
     display: flex;
+    align-items: center;
+        justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
     width: 100%;
